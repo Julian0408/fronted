@@ -1,0 +1,26 @@
+header {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(241, 240, 240);
+    object-position: center;
+
+}
+
+h1 {
+
+    background-color: rgb(218, 216, 216);
+    color: rgb(0, 38, 255);  
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(218, 216, 216);
+    color: rgb(0, 39, 212);  
+}
+
+footer{
+
+    background-color: rgb(0, 39, 212);
+    color: white;
+    text-align: center;
+}
