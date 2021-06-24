@@ -1,0 +1,99 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: #222222;
+    color: #ffffff;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div img, h1 {
+    display: inline;
+}
+
+.main-nav {
+    list-style-type: none;
+}
+
+.li-main-nav {
+    display: inline;
+    margin: 40px 13px;
+}
+
+
+.caja-1{
+position: relative;
+width: 490px;
+height: 350px;
+left: 10px;
+}
+
+.compras{
+    position: relative;
+width: 360px;
+height: 28px;
+left: 21px;
+top: 70px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #FC200C;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 490px;
+    height: 350px;
+    left: 300px;
+    align-items: center;
+  }
+
+  .container h1 {
+    color: red;
+    font-weight:bolder ;
+  }
+  .container-list {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    width: inherit;
+  }
+
+  main {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer{
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    width: 1520px;
+    height: 150px;
+}
+
+footer img{
+    margin-right: 35px;
+}
+
+footer ul li{
+    margin-left: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
